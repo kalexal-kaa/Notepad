@@ -1,0 +1,36 @@
+.root{
+    -fx-background-color: darkslategrey;
+}
+.button, .label{
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color: derive(-fx-base, 18%);
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-border-color: derive(-fx-base, -15%);
+    -fx-cursor: hand;
+}
+.button:pressed{
+    -fx-text-fill: black;
+}
+.list-view:hover{
+    -fx-cursor: hand;
+}
+.text-area, .text-area .viewport, .text-area .content, .list-view, .list-view .viewport, .list-view .content{
+    -fx-background-color: gainsboro;
+}
+.toast{
+    -fx-background-radius: 30;
+    -fx-background-color: rgb(132, 132, 132);
+    -fx-padding: 20;
+}
+#bcreate{
+    -fx-background-color: blue;
+}
+#bdelete{
+    -fx-background-color: red;
+}
+#bsave{
+    -fx-background-color: green;
+}
